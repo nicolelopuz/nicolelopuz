@@ -14,12 +14,12 @@
 }
 
 body {
-	--text-color: #fff;
-	--background-color: #363dc2;
+	--text-color: #000000;
+	--background-color: #ffffff;
 	--background-color-2: #282faf;
 	--background-color-3: #202692;
-	--link-color: #03b9f1;
-	--link-hover-color: #fff;
+	--link-color: #000000;
+	--link-hover-color: #17b1b5;
 	font-family: 'Open Sans', monospace;
 	font-weight: 500;
 	color: #fff;
