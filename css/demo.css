@@ -466,9 +466,9 @@ a:focus {
 	}
 	.content__author,
 	.content__desc,
+		display: block;
 	.content__link {
-		padding: 1em 1em 1em 1em;
-		font-size: 1em;
+		font-size: 1.3em;
 
 	}
 }
