@@ -207,6 +207,7 @@ a:focus {
 	text-align: right;
 	z-index: 10;
 	cursor: default;
+
 }
 
 .content__desc {
@@ -230,7 +231,8 @@ a:focus {
 	align-self: end;
 	justify-self: start;
 	z-index: 10;
-	padding: 0 1em 0.15em;
+	padding: 3em 1em 0.15em;
+	font-weight:bold;
 }
 
 .content__info {
