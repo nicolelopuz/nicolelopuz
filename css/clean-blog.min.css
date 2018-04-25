@@ -8,7 +8,7 @@ p {
 	margin: 30px 0
 }
 p a {
-	text-decoration: underline
+	text-decoration: none;
 }
 h1,
 h2,
@@ -271,7 +271,7 @@ header.masthead .post-heading .meta a {
 }
 .post-preview>.post-meta>a:focus,
 .post-preview>.post-meta>a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #0085a1
 }
 @media only screen and (min-width: 768px) {

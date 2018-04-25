@@ -64,14 +64,11 @@ main {
 
 a {
 	text-decoration: none;
-	color: var(--link-color);
-	outline: none;
+	color: black;
 }
 
 a:hover,
 a:focus {
-	color: var(--link-hover-color);
-	outline: none;
 }
 
 .hidden {
@@ -182,6 +179,11 @@ a:focus {
 	font-size: 1em;
 }
 
+.content_link {
+	font-size:15px;
+	text-align: left;
+}
+
 .content__img {
 	grid-column: 1 / 3;
 	grid-row: 1 / 3;
@@ -230,11 +232,10 @@ a:focus {
 .content__link {
 	pointer-events: auto;
 	grid-area: link;
-	/*align-self: end;*/
-	justify-self: start;
 	z-index: 10;
 	padding: 3em 1em 0.15em;
 	font-weight:bold;
+	color: black;
 }
 
 .content__info {
@@ -356,9 +357,10 @@ a:focus {
 .demo {
 	display: inline-block;
 	position: relative;
-	font-size: 0.85em;
+	font-size: 15px;
 	margin: 0 0.25em 0.5em 0;
 	padding: 1em;
+	text-decoration: none;
 }
 
 .demo .decoshape {
