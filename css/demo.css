@@ -14,7 +14,7 @@
 }
 
 body {
-	font-family: 'Open Sans', monospace;
+	font-family: 'Open Sans', sans-serif, monospace;
 	font-weight: 500;
 	color: #fff;
 	color: var(--text-color);
@@ -173,15 +173,21 @@ a:focus {
 }
 
 .content--related {
-	text-align: center;
-	align-content: center;
-	justify-content: center;
-	font-size: 1em;
+	text-align: left;
+	justify-content: left;
+	padding: 16em 1em 0em;
+	font-size: 16px;
+	line-height: 2;
 }
 
 .content_link {
 	font-size:15px;
-	text-align: left;
+	text-align: right;
+	justify-content: right;
+	padding: 0em 1em 0.15em;
+	font-size: 20px;
+	line-height: 2;
+
 }
 
 .content__img {
@@ -194,34 +200,33 @@ a:focus {
 
 .content__title {
 	grid-area: title;
-	font-family: 'nexa_boldregular', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	letter-spacing: -0.025em;
 	font-size: 3em;
-	line-height: 160px;
+	line-height: 120px;
 	margin: 0;
 	text-transform: lowercase;
 	z-index: 10;
 	cursor: default;
 }
 
-.content__author {
-	grid-area: author;
-	margin: 0 -60px;
-	-webkit-writing-mode: vertical-lr;
-	writing-mode: vertical-lr;
-	text-align: right;
-	z-index: 10;
-	cursor: default;
-
-}
 
 .content__desc {
 	grid-area: desc;
-	margin: 0;
 	z-index: 10;
-	padding: 0 1em;
+	padding: 0em 1em;
+	margin: 0 0 5em 0;
 	cursor: default;
+	font-size: 14px;
 }
+
+.content__subdesc {
+	padding: 0em 1em;
+	margin: 0 40% 0 0;
+	cursor: default;
+	font-size: 14px;
+}
+
 
 .content__img,
 .content__title,
@@ -234,14 +239,19 @@ a:focus {
 	pointer-events: auto;
 	grid-area: link;
 	z-index: 10;
-	padding: 3em 1em 0.15em;
+	padding: 0em 1em 0.15em;
 	font-weight:bold;
 	color: black;
 }
 
 .content__info {
-	top: 30%;
-	font-size: 25px;
+	padding: 0 0.3em 0;
+	margin: -0.9em 0 0em 0;
+	font-size: 40px;
+}
+
+.content__name {
+	padding: 0 1em;
 }
 
 .content__related-item {
@@ -440,6 +450,7 @@ a:focus {
 	text-align: right;
 }
 
+
 @media screen and (max-width: 50em) {
 	.content--fixed {
 		height: auto;
@@ -458,35 +469,43 @@ a:focus {
 	.demos {
 		text-align: center;
 	}
+
 }
 
 @media screen and (max-width: 40em) {
 	.content--layout {
-		transform: scale3d(0.8,0.8,1);
+		transform: scale3d(0.9,0.9,1);
 	}
+
 }
 
 @media screen and (max-width: 36em) {
 	.content--layout {
-		transform: scale3d(0.7,0.7,1);
+		transform: scale3d(0.8,0.8,1);
 	}
+
 }
 
 @media screen and (max-width: 32em) {
 	.content--layout {
-		transform: scale3d(0.6,0.6,1);
+		transform: scale3d(0.7,0.7,1);
 	}
 	.content__author,
 	.content__desc,
 		display: block;
 	.content__link {
 		font-size: 1.3em;
+	}
+	.content__subdesc {
+		display: block;
+	}
 
 	}
+
 }
 
 @media screen and (max-width: 28em) {
 	.content--layout {
-		transform: scale3d(0.5,0.5,1);
+		transform: scale3d(0.6,0.6,1);
 	}
 }
