@@ -7997,7 +7997,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #0033c7; }
+  color: #7896af; }
   a:hover, a:focus {
     text-decoration: none;
     color: #0033c7;
@@ -8169,7 +8169,7 @@ h1, h2, h3, h4, h5,
       color: #000000; }
 
 .navbar-brand {
-  font-weight: 900;
+  font-weight: 500;
   font-size: 20px; }
 
 .hero-wrap {
@@ -8191,13 +8191,13 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .8;
-    background: #212529; }
+    background: #567b9c; }
   .hero-wrap.hero-wrap-2 {
     height: 300px; }
     .hero-wrap.hero-wrap-2 .slider-text {
       height: 300px; }
       .hero-wrap.hero-wrap-2 .slider-text .bread {
-        font-weight: 900;
+        font-weight: 500;
         color: #fff; }
       .hero-wrap.hero-wrap-2 .slider-text .breadcrumbs {
         text-transform: uppercase;
